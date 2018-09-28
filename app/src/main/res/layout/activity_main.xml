@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:paddingLeft="13dp"
+        android:paddingTop="13dp"
+        android:text="Playlist"
+        android:padding="16dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="50sp" />
+
+
+    <TextView
+        android:id="@+id/top_grossing"
+        style="@style/TunnerStyle"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Top Grossing"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/mostly_played"
+        style="@style/TunnerStyle"
+        android:background="@color/Tunner_mostly_played"
+        android:text="Mostly Played" />
+
+    <TextView
+        android:id="@+id/new_releases"
+        style="@style/TunnerStyle"
+        android:background="@color/Tunner_new_releases"
+        android:text="New Releases" />
+
+    <TextView
+        android:id="@+id/pay_ment"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Payment" />
+
+</LinearLayout>
